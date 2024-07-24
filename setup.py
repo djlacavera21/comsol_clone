@@ -8,7 +8,7 @@ setup(
     description='A free software version of COMSOL MultiPhysics Simulator',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/comsol_clone',
+    url='https://github.com/djlacavera21/comsol_clone',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
     include_package_data=True,
