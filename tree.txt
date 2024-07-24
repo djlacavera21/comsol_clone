@@ -1,0 +1,33 @@
+comsol_clone/
+├── README.md
+├── setup.py
+├── src/
+│   ├── mesh/
+│   │   ├── __init__.py
+│   │   └── mesh_generator.py
+│   ├── solvers/
+│   │   ├── __init__.py
+│   │   ├── fem_solver.py
+│   │   └── amr_solver.py
+│   ├── physics/
+│   │   ├── __init__.py
+│   │   ├── poisson.py
+│   │   ├── structural_mechanics.py
+│   │   └── heat_transfer.py
+│   └── gui/
+│       ├── __init__.py
+│       └── main_window.py
+├── tests/
+│   ├── test_mesh_generator.py
+│   ├── test_fem_solver.py
+│   └── test_heat_transfer.py
+└── docs/
+    ├── Makefile
+    ├── build/
+    └── source/
+        ├── conf.py
+        ├── index.rst
+        ├── tutorial_poisson.rst
+        ├── tutorial_elasticity.rst
+        └── tutorial_heat_transfer.rst
+
